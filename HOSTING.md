@@ -1,6 +1,6 @@
 # Hosting Guide
 
-This document outlines three hosting options for the Kickstarter pre-launch site, all of which support GitHub integration.
+This document outlines three hosting options for the Indiegogo pre-launch site, all of which support GitHub integration.
 
 ---
 
@@ -16,7 +16,7 @@ GitHub Pages serves your site directly from this repository — no external serv
 4. Under **Source**, select **Deploy from a branch**.
 5. Choose **main** branch and **/ (root)** folder.
 6. Click **Save**.
-7. Your site will be live at: `https://YOUR_USERNAME.github.io/wild-women-kickstarter/`
+7. Your site will be live at: `https://YOUR_USERNAME.github.io/wild-women-indiegogo/`
 
 ### Pros
 - Completely free
@@ -71,7 +71,7 @@ Vercel provides instant deployments with a powerful global edge network.
 3. Select this repository.
 4. Leave all settings as default (no build command needed).
 5. Click **Deploy**.
-6. Your site will be live at `https://wild-women-kickstarter.vercel.app`.
+6. Your site will be live at `https://wild-women-indiegogo.vercel.app`.
 
 ### Custom Domain
 - In Vercel dashboard → **Settings** → **Domains** → **Add domain**
@@ -93,13 +93,13 @@ If you haven't already pushed this project to GitHub:
 
 ```bash
 # Initialize git (if not already done)
-cd wild-women-kickstarter
+cd wild-women-indiegogo
 git init
 git add .
-git commit -m "Initial commit: Kickstarter pre-launch site"
+git commit -m "Initial commit: Indiegogo pre-launch site"
 
 # Create a new repo on GitHub, then:
-git remote add origin https://github.com/YOUR_USERNAME/wild-women-kickstarter.git
+git remote add origin https://github.com/YOUR_USERNAME/wild-women-indiegogo.git
 git branch -M main
 git push -u origin main
 ```
@@ -114,4 +114,4 @@ git push -u origin main
 | Email capture + best free features | **Netlify** |
 | Fastest global performance | **Vercel** |
 
-For a Kickstarter pre-launch site, **Netlify** is recommended due to its built-in form handling (perfect for collecting early backer emails) and easy custom domain support.
+For an Indiegogo pre-launch site, **Netlify** is recommended due to its built-in form handling (perfect for collecting early backer emails) and easy custom domain support.

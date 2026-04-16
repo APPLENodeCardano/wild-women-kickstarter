@@ -1,6 +1,6 @@
-# Built by Women, For Women, In the Wild — Kickstarter Pre-Launch Site
+# Built by Women, For Women, In the Wild — Indiegogo Pre-Launch Site
 
-A pre-launch campaign page for a women's wilderness retreat center in Southern Oregon. This site is designed to build community, collect early interest, and support a Kickstarter crowdfunding campaign.
+A pre-launch campaign page for a women's wilderness retreat center in Southern Oregon. This site is designed to build community, collect early interest, and support an Indiegogo crowdfunding campaign.
 
 ## About the Project
 
@@ -24,10 +24,10 @@ This retreat center is being built **by women, for women** — in the wild lands
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/wild-women-kickstarter.git
+git clone https://github.com/YOUR_USERNAME/wild-women-indiegogo.git
 
 # Navigate into the project
-cd wild-women-kickstarter
+cd wild-women-indiegogo
 
 # Open in browser
 open index.html
@@ -48,7 +48,7 @@ See [HOSTING.md](./HOSTING.md) for detailed setup instructions.
 ## Project Structure
 
 ```
-wild-women-kickstarter/
+wild-women-indiegogo/
 ├── index.html          # Main campaign page (self-contained)
 ├── README.md           # Project documentation
 └── HOSTING.md          # Hosting setup guide
